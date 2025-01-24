@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NepYatra - Vehicle List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Nep<span>Yatra</span></div>
+            <ul>
+                <li><a href="home/navigation/home/home.html">Home</a></li>
+                <li><a href="home/navigation/about/about.html">About</a></li>
+                <li><a href="home/navigation/vehicles/vehicles.html">Vehicles</a></li>
+                <li><a href="home/navigation/contact/contact.html">Contact</a></li>
+            </ul>
+            <button class="add-vehicle">Add Vehicle</button>
+            <button class="login-btn">Login</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Vehicle List</h1>
+        <p>HOME / PAGES / VEHICLE LIST</p>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-bar">
+        <input type="text" placeholder="Search Keyword">
+        <select>
+            <option>Vehicle Type</option>
+        </select>
+        <select>
+            <option>Location</option>
+        </select>
+        <button>Search</button>
+    </section>
+
+    <!-- Vehicle Listing -->
+    <section class="vehicle-listing">
+        <h2>Vehicle Listing</h2>
+        <p>Elitmod sed ipsum dolor sit rebum labore magna erat.</p>
+        
+        <div class="vehicle-cards">
+            <div class="vehicle-card">
+                <span class="badge">For Rent</span>
+                <img src="van.jpg" alt="Van">
+                <h3>Rs 1000</h3>
+                <p>Van for rent</p>
+                <p>Balkumari, KTM, NEPAL</p>
+                <ul>
+                    <li>5 Meters</li>
+                    <li>8 Seats</li>
+                    <li>2 Wheelers</li>
+                </ul>
+            </div>
+
+            <div class="vehicle-card">
+                <span class="badge">For Rent</span>
+                <img src="thar.jpg" alt="Thar">
+                <h3>Rs 2000</h3>
+                <p>Thar for rent</p>
+                <p>Balkumari, KTM, NEPAL</p>
+                <ul>
+                    <li>3.5 Meters</li>
+                    <li>4 Seats</li>
+                    <li>4 Wheelers</li>
+                </ul>
+            </div>
+
+            <div class="vehicle-card">
+                <span class="badge">For Rent</span>
+                <img src="suv.jpg" alt="SUV">
+                <h3>Rs 3000</h3>
+                <p>SUV for rent</p>
+                <p>Balkumari, KTM, NEPAL</p>
+                <ul>
+                    <li>4 Meters</li>
+                    <li>5 Seats</li>
+                    <li>2 Wheelers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Popup -->
+    <div class="overlay"></div>
+    <div class="popup">
+        <h3>Are you a User or a Renter?</h3>
+        <button class="user-btn">User</button>
+        <button class="renter-btn">Renter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
